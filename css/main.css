@@ -1,0 +1,12 @@
+* { font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif; height: 100%; }
+body { margin: 0px auto; background-color:#222; height: 100%; }
+.contents { display: flex; display: -webkit-flex; box-sizing: border-box; -webkit-box-sizing: border-box; height: 100%; }
+.content_text { font-weight:bold; font-size:5em; color:#fff; }
+a { border: 10px solid #f0001e; }
+a:focus, a:hover { border: 10px solid white; }
+.focused {border: 10px solid white; /*background-image: url('../play_hover.png');*/}
+#side_menu {width: 79px; height: 100%; background: #fff url('../navi.png') no-repeat left top;}
+#content_container { float: left; width: 1841px; }
+#teaser { width: 1841px; height: 568px; margin-bottom: 100px; }
+#videos_container { padding-left: 100px; }
+.video { display: block; margin-right: 100px; height: 200px; float: left; }
